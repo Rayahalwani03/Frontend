@@ -5,11 +5,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:project"
     Shell.FlyoutBehavior="Disabled"
-    Title="project">
+    Title="project"
 
-    <TabBar>
+    >
 
-        <Tab Title="MainPage" Icon="mainnpage.png" >
+    
+    <TabBar >
+
+        <Tab Title="MainPage" Icon="mainnpage.png"  >
             <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
 
         </Tab>
@@ -24,7 +27,7 @@
 
         </Tab>
 
-        <Tab Title="Final" Icon="finalll.png" >
+        <Tab Title="Enrollment" Icon="finalll.png" >
             <ShellContent ContentTemplate="{DataTemplate local:FinalPage}" Route="FinalPage" />
         </Tab>
         

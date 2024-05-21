@@ -5,9 +5,9 @@
              Title="Main Page"
              >
 
-    <VerticalStackLayout  BackgroundColor="Gray" >
+    <VerticalStackLayout  BackgroundColor="#9C59D1" >
 
-        <StackLayout Orientation="Vertical"  BackgroundColor="Cyan" Margin="200" Padding="50">
+        <StackLayout Orientation="Vertical"  BackgroundColor="#FCF434" Margin="200" Padding="50">
 
             <Label Text="University Enrollment System" HorizontalOptions="Center" FontSize="30" VerticalOptions="Center"/>
 
